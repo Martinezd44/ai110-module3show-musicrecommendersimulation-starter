@@ -4,14 +4,14 @@
 
 Give your model a short, descriptive name.  
 Example: **VibeFinder 1.0**  
-
+The Great Song finder of America
 ---
 
 ## 2. Intended Use  
 
 Describe what your recommender is designed to do and who it is for. 
-
-Prompts:  
+This is used for the user to be given recommendations 
+Prompts:   a
 
 - What kind of recommendations does it generate  
 - What assumptions does it make about the user  
@@ -62,7 +62,7 @@ Prompts:
 ## 6. Limitations and Bias 
 
 Where the system struggles or behaves unfairly. 
-
+The weakneses i have discovered is how genres that are closely related to eachother were scoring lower than what it was supposed to be for some specific songs. Also a blues fan and a death metal fan were treated identicaly on genre. Now there are partial credit for some songs in the recomendation and we fixed some gaps raising the intesity and sigma enery. I was messing around with the weights on what we were doing and added some extra variables called related genre that made it more accurate. 
 Prompts:  
 
 - Features it does not consider  
